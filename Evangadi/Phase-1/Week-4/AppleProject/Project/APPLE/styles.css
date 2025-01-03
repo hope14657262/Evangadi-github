@@ -1,0 +1,371 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+img {
+  max-width: 100%;
+}
+body {
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+}
+/* header css  */
+
+.header {
+  background: black;
+  color: #fff;
+  font-weight: 200;
+  font-size: 0.75em;
+}
+.internal-wrapper {
+  width: 980px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.header-div-one ul {
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+}
+.header-div-one ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+.header-div-one ul {
+  list-style: none;
+}
+.header-div-one ul li:hover {
+  opacity: 1;
+}
+.home-link,
+.search-link,
+.cart-link {
+  width: 18px;
+  display: block;
+}
+
+.header-div-one ul li {
+  /* display: inline-block; */
+  padding: 14px 0 8px;
+  height: 25px;
+  opacity: 0.8;
+}
+.header-div-one ul .home-link {
+  padding: 12px 0 10px;
+}
+.header-div-one ul .search-link {
+  padding: 14px 0 8px;
+}
+.header-div-one ul .cart-link {
+  padding: 12px 0 10px;
+}
+
+/* all header  css style above  this text  good luck the next section */
+.frist-highlight-section {
+  text-align: center;
+  padding: 25px 0;
+  background: #fafafa;
+}
+.model-wrapper {
+  font-size: 0.85em;
+}
+.type-wrapper {
+  font-weight: 700;
+  font-size: 56px;
+}
+.promotion-word {
+  font-size: 2em;
+}
+.link-search {
+  padding: 15px 0;
+}
+.link-search ul li {
+  list-style: none;
+}
+.link-search ul li a {
+  text-decoration: none;
+  color: #06c;
+}
+.link-search ul li {
+  display: inline-block;
+  padding-right: 20px;
+}
+.link-search ul li a::after {
+  font-family: "fontAwesome";
+  font-weight: 900;
+  padding-left: 10px;
+  content: "\f105";
+}
+.link-search ul li a:hover {
+  color: #000;
+}
+
+/* The frist section  css style above  this text  good luck the next section */
+
+.second-highlight-section {
+  text-align: center;
+  background-image: url(../home/iphone11-pro-bg.jpg);
+  height: 580px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 65px 20px;
+}
+.iphone-type {
+  font-weight: 600;
+  font-size: 56px;
+  color: #fff;
+}
+.iphone-property {
+  color: #fff;
+  font-size: 26px;
+  padding: 10px 0;
+}
+.iphone-price {
+  color: #86868b;
+  font-size: 0.85em;
+}
+/* The second section  css style above  this text  good luck the next section */
+.third-highlight-section{
+  background-image: url(/home/iphone11-bg.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 580px;
+  background-repeat: no-repeat;
+  text-align: center;
+  padding: 65px 20px;
+}
+.iphone-type-1{
+font-weight: 600;
+font-size: 56px;
+}
+.iphone-property-1{
+font-size: 26px;
+padding: 10px 0;
+}
+.iphone-price-1{
+color: #86868b;
+font-size: 0.85em;
+}
+/* The thrid section  css style above  this text  good luck the next section */
+.four-highlight-section{
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  background: #fff;
+}
+.watch-highlight-section{
+  background-image: url(home/watch-series-5.jpg);
+background-position: center;
+  background-size: cover;
+  height: 580px;
+  background-repeat: no-repeat;
+  text-align: center;
+  width: 48.5%;
+	margin: 1% 0.5% 0% 1%; 
+	padding-top: 54px;
+}
+.card-highlight-section{
+  background-image: url(home/apple-card.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 580px;
+  background-repeat: no-repeat;
+  text-align: center;
+  width: 48.5%;
+	margin: 1% 0.5% 0% 1%; 
+	padding-top: 54px;
+}
+.watch-descrbtion{
+  max-width: 430px;
+	margin: 0 auto;
+	padding: 10px;
+}
+.card-descrbtion{
+max-width: 430px;
+	margin: 0 auto;
+	padding: 10px;
+}
+.five-highligh-section{
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  background: #fff;
+}
+.tv-highlight{
+  background-image: url(home/apple-tv-background.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  height: 580px;
+  width: 48.5%;
+  margin: 1% 0.5% 0% 1%; 
+  padding-top: 54px;
+}
+.airpod-highlight{
+  background-image: url(home/air-pods.jpg);
+  background-position: bottom;
+  text-align: center;
+  background-size: initial;
+  background-color: #000;
+  background-repeat: no-repeat;
+  height: 580px;
+  width: 48.5%;
+  margin: 1% 0.5% 0% 1%; 
+  padding-top: 54px;
+}
+.airpod-type{
+  color: #ffff;
+  font-weight: 900;
+  font-size: 56px;
+}
+.airpod-descrption{
+color: #fff;
+}
+.link-watch ul {
+text-align: center;
+}
+.link-watch ul li a{
+  text-decoration: none;
+  
+}
+.link-watch ul li a::after{
+font-family: "fontAwesome";
+padding: 10px;
+content: "\f105";
+}
+/* The five section  css style above  this text  good luck the next section */
+
+.six-highliht-section{
+  display: flex;
+-webkit-box-pack: justify;
+  justify-content: space-between;
+  background: #fff;
+}
+.six-highliht-section .left-side-wrapper{
+background-image:  url("home/macbook-pro.jpg"); 
+	background-size: initial;
+	background-color: #fafafa;
+	background-position: bottom; 
+}
+.left-side-wrapper{
+  background-position: center;
+  height: 580px;
+  background-repeat: no-repeat;
+  text-align: center;
+  width: 48.5%;
+	margin: 1% 0.5% 0% 1%; 
+	padding-top: 54px;
+  }
+.right-side-wrapper{
+  background-image: url("/home/new-ipad.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 580px;
+  background-repeat: no-repeat;
+  text-align: center;
+  width: 48.5%;
+	margin: 1% 0.5% 0% 1%; 
+	padding-top: 54px;
+}
+.type-wrapper-2{
+font-weight: 700;
+	font-size: 45px;
+}
+.promotion-word-2{
+max-width: 430px;
+	margin: 0 auto;
+	padding: 10px;
+}
+/* all section  css style above this */
+/* all section  css style above  this text  good luck the next to footer  */
+.footer {
+  background-color: #f5f5f7;
+  color: #1d1d1f;
+  font-size: 0.65em;
+}
+.footer-div-one {
+  border-bottom: 1px solid #d2d2d7;
+  color: #86868b;
+  padding: 17px 0 20px;
+}
+.footer-div-one a {
+  text-decoration: none;
+  color: #515154;
+}
+.footer-div-one a:hover {
+  text-decoration: underline;
+}
+.footer-link-wrapper {
+  padding-top: 20px;
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+}
+.footer-link-wrapper ul li a {
+  text-decoration: none;
+  color: #515154;
+}
+
+.footer-link-wrapper ul {
+  list-style: none;
+  padding-bottom: 20px;
+}
+.footer-link-wrapper ul li {
+  padding: 5px 0;
+  font-size: 0.9em;
+}
+.footer-link-wrapper ul li a:hover {
+  text-decoration: underline;
+}
+.footer-link-wrapper h3 {
+  font-size: 12px;
+  font-weight: 600;
+}
+.footer-div-two {
+  border-bottom: 1px solid #d2d2d7;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+/* final css style */
+.footer-div-two {
+  border-bottom: 1px solid #d2d2d7;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+.footer-contner {
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  padding: 10px 0 20px;
+}
+.footer-link ul li {
+  display: inline-block;
+  padding: 0 5px;
+  border-right: 1px solid #ccc;
+}
+.footer-link ul li:last-child {
+  border-right: 0px;
+}
+.footer-link ul a {
+  text-decoration: none;
+  color: #515154;
+}
+.footer-link ul a:hover {
+  text-decoration: underline;
+}
+.footer-flag-and-name-contener {
+  display: inline-block;
+}
+
+.footer-flagimg {
+  display: inline-block;
+  vertical-align: middle;
+}
+.footer-country-name {
+  display: inline-block;
+  /* vertical-align: top; */
+}

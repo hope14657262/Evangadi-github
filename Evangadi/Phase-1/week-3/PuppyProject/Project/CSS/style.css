@@ -1,0 +1,87 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+img {
+max-width: 100%;
+}
+body{
+font-family: 'Courier New', Courier, monospace;
+}
+/* .wrappre {
+margin: 0 auto;
+padding: 0 5%;
+}    */
+/* header css style */
+.header-wrapper{
+    background-color:#085070;
+    text-align: center;
+    padding: 30px;
+    color: #fff;;
+    font-size: 30px;
+    font-weight: 700;
+}
+ /* frist section css style  */
+
+.banner-puppies-wrapper img{
+    width: 100%;
+}
+/* second section css styel */
+.missing-puppy-wrappre{
+    margin-top: 20px;
+}
+.puppy-wrappere{
+display: flex;
+width: 960px;
+margin-left: auto;
+margin-right: auto;
+}
+.puppy-2, .puppy-1,.puppy-text-wrapper img {
+max-width: 100%;
+}
+.puppy-2,.puppy-1,.puppy-text-wrapper{
+width: 33%;
+}
+
+.puppy-text-wrapper{
+    background-color: #f84d65;
+    margin: 0 1%;
+}
+.puppy-missing-wrapper{
+    text-align: center;
+    padding: 86px 50px  45px ;
+    font-size: 44px;
+}
+
+/* thrid secton css stlye */
+.more-puppy-wrappre{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 40px;
+}
+.final-puppy-wrappre{
+ display: flex;
+}
+.large-puppy{
+display: flex;
+margin: 40px auto;
+}
+.puppy-3{
+padding: 20px;
+}
+.puppy-4{
+    padding: 20px
+}
+.final-puppy-wrappre{
+    margin: 0% auto;
+}
+/* footer css */
+.footer-wrappre{
+ background-color:#085070;
+   margin-top: 75px;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 125px;
+    color: #fff;;
+    font-size: 30px;
+}

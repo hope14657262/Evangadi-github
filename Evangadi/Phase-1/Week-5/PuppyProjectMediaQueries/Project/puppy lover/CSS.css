@@ -1,0 +1,202 @@
+* {
+  padding: 0%;
+  margin: 0%;
+}
+img {
+  max-width: 100%;
+}
+body {
+  font-family: "Courier New", Courier, monospace;
+}
+
+/* header css style */
+.header-wrapper {
+  background-color: #085070;
+  text-align: center;
+  padding: 30px;
+  color: #fff;
+}
+/* frist section css style  */
+.banner-puppies-wrapper img {
+  max-width: 100%;
+}
+/* second section css styel */
+.missing-puppy-wrappre {
+  margin-top: 20px;
+}
+.puppy-wrappere {
+  display: block;
+  text-align: center;
+  width: 540px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.puppy-1 {
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+.puppy-2 {
+  margin-top: 20px;
+}
+.puppy-text-wrapper {
+  display: none;
+  background-color: #f84d65;
+  margin: 0 1%;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+.puppy-missing-wrapper {
+  text-align: center;
+  padding: 86px 50px 45px;
+  font-size: 44px;
+  font-weight: 700;
+}
+
+/* thrid secton css stlye */
+.more-puppy-wrappre {
+  text-align: center;
+  font-size: 20px;
+  margin-top: 40px;
+  padding-bottom: 20px;
+}
+.final-puppy-wrappre {
+  margin: 0% auto;
+}
+
+.puppy-3 {
+  text-align: center;
+  width: 50%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 20px;
+}
+.puppy-4 {
+  text-align: center;
+  width: 50%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 20px;
+}
+
+/* footer css */
+.footer-wrappre {
+  background-color: #085070;
+  margin-top: 75px;
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 125px;
+  color: #fff;
+  font-size: 30px;
+}
+/* RESPONE WEB SIT TETAR  BY MIDIA QURING */
+@media (min-width: 720px) {
+  /* second section css style in mida quare */
+  .header-wrappe {
+    font-size: 30px;
+    font-weight: 700;
+  }
+  .banner-puppies-wrapper img {
+    width: 100%;
+  }
+  /* second section css style in mida quare */
+  .missing-puppy-wrappre {
+    width: 100%;
+  }
+  .puppy-wrappere {
+    display: flex;
+    width: 720px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* .puppy-2, .puppy-1,.puppy-text-wrapper img
+{
+max-width: 100%;
+} */
+  .puppy-2,
+  .puppy-1,
+  .puppy-text-wrapper {
+    width: 33%;
+  }
+  .puppy-text-wrapper {
+    display: block;
+  }
+  .puppy-missing-wrapper {
+    padding: 45px 50px 45px;
+    font-size: 34px;
+  }
+  .more-puppy-wrappre {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+  }
+  /* section four css  midqire style */
+  .final-puppy-wrappre {
+    margin: 0% auto;
+  }
+  .large-puppy {
+    display: flex;
+    width: 720px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .puppy-3 {
+    padding-right: 20px;
+  }
+  .puppy-4 {
+    padding-left: 20px;
+  }
+}
+/* 
+large - secreen responsive by meda quire */
+
+@media (min-width: 960px) {
+  /* second section css style in mida quare */
+  .header-wrappe {
+    font-size: 30px;
+    font-weight: 700;
+  }
+  .banner-puppies-wrapper img {
+    width: 100%;
+  }
+
+  /* second section css style in mida quare */
+  .missing-puppy-wrappre {
+    width: 100%;
+  }
+  .puppy-wrappere {
+    display: flex;
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .puppy-2,
+  .puppy-1,
+  .puppy-text-wrapper img {
+    max-width: 100%;
+  }
+  .puppy-2,
+  .puppy-1,
+  .puppy-text-wrapper {
+    width: 33%;
+  }
+  .puppy-missing-wrapper {
+    text-align: center;
+    padding: 86px 50px 45px;
+    font-size: 44px;
+  }
+  .more-puppy-wrappre {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+  }
+  /* section four css  midqire style */
+  .final-puppy-wrappre {
+    margin: 0% auto;
+  }
+  .large-puppy {
+    display: flex;
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
